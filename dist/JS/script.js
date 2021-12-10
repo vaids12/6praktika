@@ -38,7 +38,7 @@ let n4 =1221
 let ketvirtas=n4%10;
 let trecias=Math.floor(n4/10)%10;
 let antras=Math.floor(n4/100)%10;
-let pirmas=Math.floor(n4/1000)%10;
+let pirmas=Math.floor(n4/1000);
 
 // if( pirmas==ketvirtas ) {
 //     if(antras==trecias){
@@ -129,7 +129,7 @@ if (p1>p2 && p1>p3){
 
 let n10=12;
 
-if ( n10<=0 || n10> 12){
+if ( n10<=0 || n10>12){
 console.log("Nėra tiek mėnesių");
 }else if (n10==2){
     console.log("dienų 28");
