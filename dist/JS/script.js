@@ -61,7 +61,7 @@ if(pirmas==ketvirtas&& antras==trecias){
 // let num4 = Math.floor(n5/100)%10;
 // let num3=Math.floor(n5/1000)%10;
 // let num2 =Math.floor(n5/10000)%10;
-// let num1 =Math.floor(n5/100000)%10;
+// let num1 =Math.floor(n5/100000);
 // let sum = num1+num2+num3+num4+num5+num6
 // if (sum % 4 == 0 ){
 //     console.log("Bilietas laimingas");
@@ -89,7 +89,7 @@ let n7 = 12321
 let num5=n7 %10
 let num4= Math.floor(n7/10)%10
 let num2 = Math.floor(n7/1000)%10
-let num1= Math.floor(n7/10000)%10
+let num1= Math.floor(n7/10000)
 
 if (num5==num1 && num2==num4){
     console.log("Skaičius polindromas")
@@ -114,20 +114,20 @@ if (k8>6 && k8<1){
 
 let p1=8;
 let p2=2;
-let p3=9;
+let p3=6;
 
 if (p1>p2 && p1>p3){
     console.log(" pirmasis gavo geriausia pažymį");
 }else if (p2>p1 && p2>p3){
     console.log(" antrasis gavo geriausia pažymį");
-}else if (p3>p1 && p3>p2){
+}else {
     console.log(" trečiasis gavo geriausia pažymį");
 }
 
 
 // 10uzdavinys
 
-let n10=12;
+let n10=10;
 
 if ( n10<=0 || n10>12){
 console.log("Nėra tiek mėnesių");
