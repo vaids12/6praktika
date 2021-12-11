@@ -174,17 +174,37 @@ if (m13 >= 1896 && m13 % 4 === 0) {
 
 // 14 uzdavinys
 
+let a14 = 1;
+let b14 = 3;
+let c14 = 4;
+let D14 = (b14*b14)-(4*a14*c14);
+console.log (D14);
 
+// vienas D=0
+
+let spr =-b14/(2*a14);
+
+// kai D>0
+let spr1 = ((-b14)+Math.sqrt(D14))/(2*a14);
+let spr2 = ((-b14)-Math.sqrt(D14))/(2*a14);
+
+if (D14>0){
+    console.log("Du sprendiniai"+" " + spr1+" "+spr2);
+}else if(D14===0){
+    console.log("Vienas sprendinys "+ spr);
+}else{
+    console.log("Nėra sprendinių");
+}
 
 
 // 15 uzdavinys
 
-let c15 = 50
+let c15 = 60
 let p15 = 20
 let k15 = Math.floor(c15 / p15)
 
 if (c15 >= p15) {
-    console.log("Saulius pirks" + " " + k15 + " " + "porcijas, liks centu" + " " + (c15 - (k15 * p15)));
+    console.log("Saulius pirks" + " " + k15 + " " + "porcijas, liks centu" + " " + (c15 %p15));
 } else {
     console.log("Neuztenka pinigu");
 }
@@ -193,16 +213,12 @@ if (c15 >= p15) {
 // 16 uzdavinys
 
 
-let n16 = 0;
+let n16 = 5;
 let m16 = 10;
 
 
-if (n16 > 0 && m16 > 0) {
-    if (n16 > m16) {
-        console.log(Math.floor(n16 / m16) + 1);
-    } else {
-        console.log(1)
-    }
+if (n16 > 0 && m16 > 0) {  
+        console.log(Math.ceil(n16 / m16) );
 } else {
     console.log("Nera ka arba kuom vezti");
 }
@@ -219,3 +235,5 @@ if (a17 > b17) {
 } else {
     console.log(" Skaiciai lygus");
 }
+
+
