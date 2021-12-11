@@ -61,10 +61,10 @@ console.log("Skritulių plotai" + " " + S1 + "," + " " + S2 + " " + "ir" + " " +
 
 // let sk1 = 1210;
 // let sk2 = 1215;
-// let sk3 = 1211;
+// let sk3 = 1218;
 // let sk4 = 1300;
 // let sk5 = 1502;
-// let sk6 = 1012;
+// let sk6 = 1612;
 
 // if (sk1 !== sk2 && sk1 !== sk3 && sk1 !== sk4 && sk1 !== sk5 && sk1 !== sk6 && sk2 !== sk3 && sk2 !== sk4 && sk2 !== sk5 && sk2 !== sk6 && sk3 !== sk4 && sk3 !== sk5 && sk3 !== sk6 && sk4 !== sk5 && sk4 !== sk6 && sk5 !== sk6) {
 //     if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4 && sk1 < sk5 && sk1 < sk6) {
@@ -150,183 +150,270 @@ console.log("Skritulių plotai" + " " + S1 + "," + " " + S2 + " " + "ir" + " " +
 // }
 
 // 6.1 uzdavinys
+// console.log("6.1 uždavinys")
+
+
+// let sk1 = 6954
+// let sk2 = 2100
+// let sk3 = 9900
+// let sk4 = 7100
+
+
+// if (sk1 !== sk2 && sk1 !== sk3 && sk1 !== sk4 && sk2 !== sk3 && sk2 !== sk4 && sk3 !== sk4 && sk1 >= 0 && sk1 <= 9999 && sk2 >= 0 && sk2 <= 9999 && sk3 >= 0 && sk3 <= 9999 && sk4 >= 0 && sk4 <= 9999) {
+//     if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
+//         if (sk2 < sk3 && sk2 < sk4) {
+//             if (sk3 < sk4) {
+//                 console.log(sk1, sk2, sk3, sk4);
+//             }
+//         }
+//     }
+//     if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
+//         if (sk2 < sk3 && sk2 < sk4) {
+//             if (sk4 < sk3) {
+//                 console.log(sk1, sk2, sk4, sk3);
+//             }
+//         }
+//     }
+//     if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
+//         if (sk3 < sk2 && sk3 < sk4) {
+//             if (sk2 < sk4) {
+//                 console.log(sk1, sk3, sk2, sk4);
+//             }
+//         }
+//     }
+//     if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
+//         if (sk3 < sk2 && sk3 < sk4) {
+//             if (sk4 < sk2) {
+//                 console.log(sk1, sk3, sk4, sk2);
+//             }
+//         }
+//     }
+//     if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
+//         if (sk4 < sk2 && sk4 < sk3) {
+//             if (sk2 < sk3) {
+//                 console.log(sk1, sk4, sk2, sk3);
+//             }
+//         }
+//     }
+//     if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
+//         if (sk4 < sk2 && sk4 < sk3) {
+//             if (sk3 < sk2) {
+//                 console.log(sk1, sk4, sk3, sk2);
+//             }
+//         }
+//     }
+//     if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
+//         if (sk1 < sk3 && sk1 < sk4) {
+//             if (sk3 < sk4) {
+//                 console.log(sk2, sk1, sk3, sk4);
+//             }
+//         }
+//     }
+//     if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
+//         if (sk1 < sk3 && sk1 < sk4) {
+//             if (sk4 < sk3) {
+//                 console.log(sk2, sk1, sk4, sk3);
+//             }
+//         }
+//     }
+//     if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
+//         if (sk3 < sk1 && sk3 < sk4) {
+//             if (sk1 < sk4) {
+//                 console.log(sk2, sk3, sk1, sk4);
+//             }
+//         }
+//     }
+//     if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
+//         if (sk3 < sk1 && sk3 < sk4) {
+//             if (sk4 < sk1) {
+//                 console.log(sk2, sk3, sk4, sk1);
+//             }
+//         }
+//     }
+//     if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
+//         if (sk4 < sk3 && sk4 < sk1) {
+//             if (sk1 < sk3) {
+//                 console.log(sk2, sk4, sk1, sk3);
+//             }
+//         }
+//     }
+//     if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
+//         if (sk4 < sk3 && sk4 < sk1) {
+//             if (sk3 < sk1) {
+//                 console.log(sk2, sk4, sk3, sk1);
+//             }
+//         }
+//     }
+//     if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
+//         if (sk1 < sk2 && sk1 < sk4) {
+//             if (sk2 < sk4) {
+//                 console.log(sk3, sk1, sk2, sk4);
+//             }
+//         }
+//     }
+//     if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
+//         if (sk1 < sk2 && sk1 < sk4) {
+//             if (sk4 < sk2) {
+//                 console.log(sk3, sk1, sk4, sk2);
+//             }
+//         }
+//     }
+//     if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
+//         if (sk2 < sk1 && sk2 < sk4) {
+//             if (sk1 < sk4) {
+//                 console.log(sk3, sk2, sk1, sk4);
+//             }
+//         }
+//     }
+//     if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
+//         if (sk2 < sk1 && sk2 < sk4) {
+//             if (sk4 < sk1) {
+//                 console.log(sk3, sk2, sk4, sk1);
+//             }
+//         }
+//     }
+//     if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
+//         if (sk4 < sk1 && sk4 < sk2) {
+//             if (sk1 < sk2) {
+//                 console.log(sk3, sk4, sk1, sk2);
+//             }
+//         }
+//     }
+//     if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
+//         if (sk4 < sk1 && sk4 < sk2) {
+//             if (sk2 < sk1) {
+//                 console.log(sk3, sk4, sk2, sk1);
+//             }
+//         }
+//     }
+//     if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
+//         if (sk1 < sk2 && sk1 < sk3) {
+//             if (sk2 < sk3) {
+//                 console.log(sk4, sk1, sk2, sk3);
+//             }
+//         }
+//     }
+//     if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
+//         if (sk1 < sk2 && sk1 < sk3) {
+//             if (sk3 < sk2) {
+//                 console.log(sk4, sk1, sk3, sk2);
+//             }
+//         }
+//     }
+//     if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
+//         if (sk2 < sk1 && sk2 < sk3) {
+//             if (sk1 < sk3) {
+//                 console.log(sk4, sk2, sk1, sk3);
+//             }
+//         }
+//     }
+//     if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
+//         if (sk2 < sk1 && sk2 < sk3) {
+//             if (sk3 < sk1) {
+//                 console.log(sk4, sk2, sk3, sk1);
+//             }
+//         }
+//     }
+//     if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
+//         if (sk3 < sk1 && sk3 < sk2) {
+//             if (sk1 < sk2) {
+//                 console.log(sk4, sk3, sk1, sk2);
+//             }
+//         }
+//     }
+//     if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
+//         if (sk3 < sk1 && sk3 < sk2) {
+//             if (sk2 < sk1) {
+//                 console.log(sk4, sk3, sk2, sk1);
+//             }
+//         }
+//     }
+// } else {
+//     console.log(" Tarp įvestų skaičių yra  vienodos reikšmės arba ne intervale nuo 0 iki 9999")
+// }
+
+// 6.1 uzdavinys
 console.log("6.1 uždavinys")
 
 
-let sk1 = 6954
-let sk2 = 2100
-let sk3 = 9900
-let sk4 = 7100
+let sk1 = 1300
+let sk2 = 1400
+let sk3 =1500
+let sk4 = 1200
 
 
 if (sk1 !== sk2 && sk1 !== sk3 && sk1 !== sk4 && sk2 !== sk3 && sk2 !== sk4 && sk3 !== sk4 && sk1 >= 0 && sk1 <= 9999 && sk2 >= 0 && sk2 <= 9999 && sk3 >= 0 && sk3 <= 9999 && sk4 >= 0 && sk4 <= 9999) {
-    if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
-        if (sk2 < sk3 && sk2 < sk4) {
-            if (sk3 < sk4) {
+    if (sk1 < sk2 && sk2 < sk3 &&sk3 < sk4 ) {   
                 console.log(sk1, sk2, sk3, sk4);
             }
-        }
+    if (sk1 < sk2 && sk2 < sk4 && sk4 < sk3 ) {
+                console.log(sk1, sk2, sk4, sk3);        
     }
-    if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
-        if (sk2 < sk3 && sk2 < sk4) {
-            if (sk4 < sk3) {
-                console.log(sk1, sk2, sk4, sk3);
-            }
-        }
+    if ( sk1 < sk3 &&sk3 < sk2 &&sk2 < sk4 ) {
+                console.log(sk1, sk3, sk2, sk4);   
     }
-    if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
-        if (sk3 < sk2 && sk3 < sk4) {
-            if (sk2 < sk4) {
-                console.log(sk1, sk3, sk2, sk4);
-            }
-        }
+    if ( sk1 < sk3 && sk3 < sk4 &&sk4 < sk2 ) {
+                console.log(sk1, sk3, sk4, sk2);   
     }
-    if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
-        if (sk3 < sk2 && sk3 < sk4) {
-            if (sk4 < sk2) {
-                console.log(sk1, sk3, sk4, sk2);
-            }
-        }
-    }
-    if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
-        if (sk4 < sk2 && sk4 < sk3) {
-            if (sk2 < sk3) {
+    if ( sk1 < sk4 && sk4 < sk2 && sk2 < sk3 ) {   
                 console.log(sk1, sk4, sk2, sk3);
-            }
-        }
     }
-    if (sk1 < sk2 && sk1 < sk3 && sk1 < sk4) {
-        if (sk4 < sk2 && sk4 < sk3) {
-            if (sk3 < sk2) {
-                console.log(sk1, sk4, sk3, sk2);
-            }
-        }
+    if ( sk1 < sk4 &&  sk4 < sk3 && sk3 < sk2) {
+                console.log(sk1, sk4, sk3, sk2); 
     }
-    if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
-        if (sk1 < sk3 && sk1 < sk4) {
-            if (sk3 < sk4) {
+    if (sk2 < sk1 && sk1 < sk3 && sk3 < sk4) {
                 console.log(sk2, sk1, sk3, sk4);
-            }
-        }
     }
-    if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
-        if (sk1 < sk3 && sk1 < sk4) {
-            if (sk4 < sk3) {
+    if (sk2 < sk1 && sk1 < sk4 && sk4 < sk3) {
                 console.log(sk2, sk1, sk4, sk3);
-            }
-        }
     }
-    if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
-        if (sk3 < sk1 && sk3 < sk4) {
-            if (sk1 < sk4) {
+    if ( sk2 < sk3 && sk3 < sk1 && sk1 < sk4) {
                 console.log(sk2, sk3, sk1, sk4);
-            }
-        }
     }
-    if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
-        if (sk3 < sk1 && sk3 < sk4) {
-            if (sk4 < sk1) {
+    if ( sk2 < sk3 && sk3 < sk4 && sk4 < sk1) {
                 console.log(sk2, sk3, sk4, sk1);
-            }
-        }
     }
-    if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
-        if (sk4 < sk3 && sk4 < sk1) {
-            if (sk1 < sk3) {
+    if ( sk2 < sk4 && sk4 < sk1 && sk1 < sk3) {
                 console.log(sk2, sk4, sk1, sk3);
-            }
-        }
     }
-    if (sk2 < sk1 && sk2 < sk3 && sk2 < sk4) {
-        if (sk4 < sk3 && sk4 < sk1) {
-            if (sk3 < sk1) {
+    if ( sk2 < sk4 && sk4 < sk3 && sk3 < sk1) {
                 console.log(sk2, sk4, sk3, sk1);
-            }
-        }
     }
-    if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
-        if (sk1 < sk2 && sk1 < sk4) {
-            if (sk2 < sk4) {
+    if (sk3 < sk1 && sk1 < sk2 && sk2 < sk4) {
                 console.log(sk3, sk1, sk2, sk4);
-            }
-        }
     }
-    if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
-        if (sk1 < sk2 && sk1 < sk4) {
-            if (sk4 < sk2) {
+    if (sk3 < sk1 && sk1 < sk4 && sk4 < sk2) {
                 console.log(sk3, sk1, sk4, sk2);
-            }
-        }
     }
-    if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
-        if (sk2 < sk1 && sk2 < sk4) {
-            if (sk1 < sk4) {
+    if (sk3 < sk2 && sk2 < sk1 && sk1 < sk4) {
                 console.log(sk3, sk2, sk1, sk4);
-            }
-        }
     }
-    if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
-        if (sk2 < sk1 && sk2 < sk4) {
-            if (sk4 < sk1) {
+    if (sk3 < sk2 && sk2 < sk4 && sk4 < sk1) {
                 console.log(sk3, sk2, sk4, sk1);
-            }
-        }
     }
-    if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
-        if (sk4 < sk1 && sk4 < sk2) {
-            if (sk1 < sk2) {
+    if (sk3 < sk4 && sk4 < sk1 && sk1 < sk2) {
                 console.log(sk3, sk4, sk1, sk2);
-            }
-        }
     }
-    if (sk3 < sk1 && sk3 < sk2 && sk3 < sk4) {
-        if (sk4 < sk1 && sk4 < sk2) {
-            if (sk2 < sk1) {
+    if (sk3 < sk4 && sk4 < sk2 && sk2 < sk1) {
                 console.log(sk3, sk4, sk2, sk1);
-            }
-        }
     }
-    if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
-        if (sk1 < sk2 && sk1 < sk3) {
-            if (sk2 < sk3) {
+    if (sk4 < sk1 && sk1 < sk2 && sk2 < sk3) {
                 console.log(sk4, sk1, sk2, sk3);
-            }
-        }
     }
-    if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
-        if (sk1 < sk2 && sk1 < sk3) {
-            if (sk3 < sk2) {
+    if (sk4 < sk1 && sk1 < sk3 && sk3 < sk2) {
                 console.log(sk4, sk1, sk3, sk2);
-            }
-        }
     }
-    if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
-        if (sk2 < sk1 && sk2 < sk3) {
-            if (sk1 < sk3) {
+    if (sk4 < sk2 && sk2 < sk1 && sk1 < sk3) {
                 console.log(sk4, sk2, sk1, sk3);
-            }
-        }
     }
-    if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
-        if (sk2 < sk1 && sk2 < sk3) {
-            if (sk3 < sk1) {
+    if (sk4 < sk2 && sk2 < sk3 && sk3 < sk1) {
                 console.log(sk4, sk2, sk3, sk1);
-            }
-        }
     }
-    if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
-        if (sk3 < sk1 && sk3 < sk2) {
-            if (sk1 < sk2) {
+    if (sk4 < sk3 && sk3 < sk1 && sk1 < sk2) {
                 console.log(sk4, sk3, sk1, sk2);
-            }
-        }
     }
-    if (sk4 < sk1 && sk4 < sk2 && sk4 < sk3) {
-        if (sk3 < sk1 && sk3 < sk2) {
-            if (sk2 < sk1) {
+    if (sk4 < sk3 && sk3 < sk2 && sk2 < sk1) {
                 console.log(sk4, sk3, sk2, sk1);
-            }
-        }
     }
 } else {
     console.log(" Tarp įvestų skaičių yra  vienodos reikšmės arba ne intervale nuo 0 iki 9999")
