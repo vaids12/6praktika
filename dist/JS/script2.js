@@ -154,7 +154,7 @@ console.log("6.1 uždavinys")
 
 
 let sk1 = 6954
-let sk2 = 1150
+let sk2 = 2100
 let sk3 = 9900
 let sk4 = 7100
 
