@@ -416,5 +416,5 @@ if (sk1 !== sk2 && sk1 !== sk3 && sk1 !== sk4 && sk2 !== sk3 && sk2 !== sk4 && s
                 console.log(sk4, sk3, sk2, sk1);
     }
 } else {
-    console.log(" Tarp įvestų skaičių yra  vienodos reikšmės arba ne intervale nuo 0 iki 9999")
+    console.log(" Tarp įvestų skaičių yra vienodos reikšmės arba ne intervale nuo 0 iki 9999")
 }
